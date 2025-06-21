@@ -1,0 +1,27 @@
+FastHTML App – Installation & Usage Guide
+
+Requirements
+Make sure you have Python 3.8+ installed.
+
+
+📦 1. Installation Steps
+Step 1: Create & Activate a Virtual Environment
+
+    python -m venv venv
+    source venv/bin/activate        # On Linux/Mac
+    venv\Scripts\activate           # On Windows
+
+
+Step 2: Install fasthtml
+    pip install fasthtml
+
+
+🚀 2. Running the App
+Your main app file should include:
+    fh.serve()
+
+To run the application:
+    python main.py
+
+To auto-reload the app during development, ensure:
+    live=True  # in fh.fast_app()
